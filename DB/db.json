@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "imgUrl": "grandrapidsskyline.jpg",
+      "username": "nate2427",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "stores": {
+    "name": "nate",
+    "date": "18/18/1996"
+  }
+}

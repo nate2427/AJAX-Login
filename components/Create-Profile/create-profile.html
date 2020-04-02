@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="create-profile.css" />
+    <title>Create-Profile</title>
+  </head>
+  <body>
+    <div class="create-profile-container">
+      <div class="profile-card">
+        <div class="user-img">
+          <img src="../../assets/upload-img-pic.png" alt="upload image icon" />
+        </div>
+        <div class="user-login-info">
+          <div class="username">
+            <label for="usernameInput">username</label>
+            <input type="text" id="usernameInput" />
+          </div>
+          <div class="password">
+            <label for="passwordInput">password</label>
+            <input type="password" id="passwordInput" />
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="create-button">
+            <button>Create</button>
+          </div>
+          <div class="login-button">
+            <button>Login</button>
+          </div>
+        </div>
+        <input type="file" id="FileUpload1" style="display: none" />
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="create-profile.js"></script>
+  </body>
+</html>
